@@ -1,0 +1,6 @@
+APScheduler==3.9.1
+flask
+gunicorn
+gevent
+pytz
+requests

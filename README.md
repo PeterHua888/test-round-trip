@@ -5,7 +5,7 @@ By running the bash script, the following Azure resources will be created
 2. 1 App Service in UK South and 1 App Service in East Asia
 3. 1 VNet in UK South and 1 VNet in East Asia
 4. 1 Container Registry in EastAsia
-5. Peering between the 2 Vnets
+5. Network Peering between the 2 Vnets
 The UK South App is a simple flask service that serves HTTP requests.
 The East Asia App will send requests to UK South App every 30 seconds, and print the round trip time.
 

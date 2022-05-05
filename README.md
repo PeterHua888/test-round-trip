@@ -1,5 +1,6 @@
 # test-round-trip
 This repo is to test the round trip time between East Asia and UK South with 2 App Services, one in UK South and the other in East Asia.
+
 By running the bash script, the following Azure resources will be created
 1. 1 App Service Plan in UK South and 1 App Service Plan in East Asia
 2. 1 App Service in UK South and 1 App Service in East Asia

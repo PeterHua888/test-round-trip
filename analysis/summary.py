@@ -24,5 +24,5 @@ def summarise_app_service_round_trip_time():
     print(round_trip_time.describe())
 
 if __name__ == "__main__":
-    compare_app_service_against_vm()
     summarise_app_service_round_trip_time()
+    compare_app_service_against_vm()

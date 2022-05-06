@@ -14,7 +14,7 @@ The East Asia App will send requests to UK South App every 30 seconds, and print
 `./deploy-peering-apps.sh`
 
 ## Performance analysis
-The round trip time summary is given in the analysis folder. It contains the round trip time outputs.
+The round trip time summary is given in the `analysis` folder. It contains the round trip time outputs.
 1. The `round_trip_comparison.log` file contains the round trip time outputs from HK App Service to UK App Service and from HK App Service to UK VM. The outputs are generated from another App Service for testing round trip time.
 2. The `round_trip_comparison.log` file contains the round trip time outputs from HK App Service to UK App Service. The outputs are generated from App Service created by this repo.
 

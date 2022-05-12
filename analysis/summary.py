@@ -22,6 +22,8 @@ def summarise_app_service_round_trip_time():
     round_trip_time = pd.Series([float(item) for item in round_trip_time])
     print("Round trip time summary from HK App Service to UK App Service")
     print(round_trip_time.describe())
+    print("\n")
+    print("\n")
 
 if __name__ == "__main__":
     summarise_app_service_round_trip_time()
